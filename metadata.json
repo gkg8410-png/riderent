@@ -1,0 +1,6 @@
+{
+  "name": "RideRent",
+  "description": "India's peer-to-peer car rental marketplace connecting vehicle owners and travelers with instant booking, smart pricing, and full admin control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

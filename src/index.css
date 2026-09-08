@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-paper: #f4f1ea;
+    --ink-black: #1a1a1a;
+    --accent-vermilion: #ff5d22;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #1a1a1a;
+    background-color: #f4f1ea;
+    -webkit-font-smoothing: antialiased;
+    selection-background-color: #ff5d22;
+  }
+
+  ::selection {
+    background-color: #ff5d22;
+    color: #ffffff;
+  }
+}
+
+.font-editorial {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-code {
+  font-family: 'Space Mono', monospace;
+}
+
+.bg-dot-grid {
+  background-image: radial-gradient(#1a1a1a 1px, transparent 1px);
+  background-size: 14px 14px;
+}
+
